@@ -14,4 +14,4 @@ jobs:
       - name: Now it is
         run: echo date
       - name: Directory content
-        run ls -la
+        run: ls -la

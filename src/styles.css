@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
 
 html, body {
   height: 100%;
@@ -8,7 +8,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Open Sans";
+  font-family: "Work Sans";
   font-size: 18px;
 }
 

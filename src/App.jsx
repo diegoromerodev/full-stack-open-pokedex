@@ -38,4 +38,6 @@ const App = () => {
   )
 }
 
+// This exports the app
+
 export default App

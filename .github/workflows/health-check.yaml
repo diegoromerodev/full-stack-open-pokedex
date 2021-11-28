@@ -9,6 +9,7 @@ on:
 
 jobs:
   ping4health:
+    runs-on: ubuntu-18.04
     steps:
     - name: Check the deployed service URL
       uses: jtalk/url-health-check-action@v2

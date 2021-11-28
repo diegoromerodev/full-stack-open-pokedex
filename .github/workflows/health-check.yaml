@@ -19,4 +19,4 @@ jobs:
         follow-redirect: false
         max-attempts: 3
         retry-delay: 10s
-        retry-all: no
+        retry-all: false

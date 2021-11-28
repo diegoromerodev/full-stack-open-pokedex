@@ -41,7 +41,7 @@ jobs:
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
           delay: 10
-      - uses: actions/checkout@ce4b5ffa38e072fa7a901e417253c438fcc2ccce
+      - uses: actions/checkout@v2
       - name: Bump version and push tag
         uses: anothrNick/github-tag-action@1.36.0
         if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message), '#skip')}}
